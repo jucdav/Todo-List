@@ -3,7 +3,19 @@
 A simple yet elegant **To-Do List** Android application developed using **Jetpack Compose** and **Room Database**. This project demonstrates modern Android development practices, focusing on a clean architecture and efficient state management.
 
 ---
+## 🎨 UI Preview
 
+Take a look at the clean and intuitive user interface of the Todo List App! Designed with modern Android tools like Jetpack Compose, this app offers a smooth and responsive experience for managing your tasks. From adding new tasks to checking them off, the UI is designed to keep you productive and organized.
+
+Here’s a glimpse of what the app looks like in action:
+
+
+Feel free to explore the code and see how it all comes together to create a beautiful, functional task management app!
+![Todo List App UI](ScreenShots/to-do_list_screenshot.png)
+
+> *Add tasks with a single tap and manage your day efficiently.*
+
+---
 ## 🛠 Tech Stack
 
 - **Kotlin** – Primary language  
