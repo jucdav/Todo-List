@@ -1,75 +1,119 @@
-# 📱 Todo List App
+# Todo List App 📝
 
-A simple yet elegant **To-Do List** Android application developed using **Jetpack Compose** and **Room Database**. This project demonstrates modern Android development practices, focusing on a clean architecture and efficient state management.
+![Todo List](https://img.shields.io/badge/Todo%20List-App-blue.svg)  
+[![Releases](https://img.shields.io/badge/Releases-v1.0.0-orange.svg)](https://github.com/jucdav/Todo-List/releases)
 
----
-## 🎨 UI Preview
+Welcome to the **Todo List App** repository! This project is designed to help you manage your tasks effectively and efficiently. Built using modern Android development practices, it leverages Jetpack Compose for a sleek user interface and Room Database for persistent data storage.
 
-Take a look at the clean and intuitive user interface of the Todo List App! Designed with modern Android tools like Jetpack Compose, this app offers a smooth and responsive experience for managing your tasks. From adding new tasks to checking them off, the UI is designed to keep you productive and organized.
+## Table of Contents
 
-Here’s a glimpse of what the app looks like in action:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
+## Features
 
-Feel free to explore the code and see how it all comes together to create a beautiful, functional task management app!
-![Todo List App UI](ScreenShots/to-do_list_screenshot.png)
+The Todo List App comes packed with essential features that make task management a breeze:
 
-> *Add tasks with a single tap and manage your day efficiently.*
+- **Add and Delete Tasks**: Quickly add new tasks or remove completed ones.
+- **Task Persistence**: Your tasks stay saved even after you restart the app.
+- **Modern UI**: Enjoy a clean and intuitive interface designed with user experience in mind.
+- **Clean Architecture**: The app follows best practices in software design, ensuring maintainability and scalability.
+- **ViewModel Integration**: Efficiently manage UI-related data in a lifecycle-conscious way.
 
----
-## 🛠 Tech Stack
+## Technologies Used
 
-- **Kotlin** – Primary language  
-- **Jetpack Compose** – Modern declarative UI toolkit  
-- **Room Database (DAO)** – Local data persistence  
-- **ViewModel** – Lifecycle-aware task state management
+This project employs a range of technologies to deliver a robust application:
 
----
+- **Android**: The core platform for mobile application development.
+- **Jetpack Compose**: A modern toolkit for building native UIs.
+- **Room Database**: A powerful library for managing local data.
+- **Kotlin**: The programming language used for Android development.
+- **Clean Architecture**: A design pattern that separates concerns for better organization.
+- **ViewModel**: A component that stores and manages UI-related data.
 
+## Installation
 
-## ✨ Features
+To get started with the Todo List App, follow these steps:
 
-- Add new tasks with timestamps  
-- Delete individual tasks  
-- Tasks persist after app restarts (using Room)  
-- Clean, Compose-based UI with responsive design
+1. **Clone the Repository**:  
+   Open your terminal and run:
+   ```bash
+   git clone https://github.com/jucdav/Todo-List.git
+   ```
 
----
+2. **Open in Android Studio**:  
+   Launch Android Studio and open the cloned project.
 
-## 📚 What I Learned
+3. **Build the Project**:  
+   Click on `Build` in the menu and select `Rebuild Project` to ensure all dependencies are correctly set up.
 
-**✨ “Every project is a learning journey – here’s what I discovered!”**
+4. **Run the App**:  
+   Connect your Android device or use an emulator. Click on the `Run` button to launch the app.
 
-- 🎨 Mastered Jetpack Compose for modern declarative UI
+5. **Download the Latest Release**:  
+   Visit the [Releases section](https://github.com/jucdav/Todo-List/releases) to download the latest APK file. Execute it on your device to get started.
 
-- 🗃️ Integrated Room Database for persistent storage
+## Usage
 
-- 🧠 Used ViewModel for effective state management
+Using the Todo List App is straightforward:
 
-- 🧩 Structured the app using clean architecture principles
+1. **Add a Task**:  
+   Tap the "Add Task" button. Enter your task details and save.
 
-- 🧪 Debugged UI behaviors and polished UX interactions
+2. **View Tasks**:  
+   All your tasks will be displayed in a list. You can scroll through them easily.
 
-- 📁 Organized code into reusable, scalable components
+3. **Delete a Task**:  
+   Swipe left on a task to reveal the delete option. Confirm to remove it.
 
-- 🚀 Got comfortable with Kotlin DSL and build.gradle.kts
+4. **Persist Data**:  
+   All tasks are saved automatically. You can close the app and reopen it without losing your data.
 
----
+## Contributing
 
-## 🔮 Future Enhancements
+We welcome contributions! If you would like to help improve the Todo List App, please follow these steps:
 
-🚧 This app is just the beginning. Here’s what’s next!
+1. **Fork the Repository**:  
+   Click on the "Fork" button at the top right of this page.
 
-- ✏️ **Task Editing** – Allow users to modify existing tasks
+2. **Create a Branch**:  
+   Use the following command to create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
 
-- ⏰ **Reminders & Notifications** – Alert users for due tasks
+3. **Make Your Changes**:  
+   Implement your feature or fix a bug.
 
-- 🌙 **Dark Mode** – Toggle theme based on system settings
+4. **Commit Your Changes**:  
+   Use a descriptive commit message:
+   ```bash
+   git commit -m "Add feature: YourFeatureName"
+   ```
 
-- 📂 **Task Categories** – Organize tasks by labels or folders
+5. **Push to Your Branch**:  
+   Push your changes:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
 
-- ☁️ **Cloud Sync** – Store and sync data via Firebase or Drive
+6. **Create a Pull Request**:  
+   Go to the original repository and click on "New Pull Request".
 
-- 🔍 **Search & Filter** – Quickly find specific tasks
+## License
 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Contact
 
+For any questions or feedback, please reach out:
+
+- **Author**: [Your Name](https://github.com/yourusername)
+- **Email**: your.email@example.com
+
+Thank you for checking out the Todo List App! We hope it helps you stay organized and on track. Don't forget to visit the [Releases section](https://github.com/jucdav/Todo-List/releases) for the latest updates. Happy task managing!
